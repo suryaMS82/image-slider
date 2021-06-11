@@ -15,7 +15,7 @@ bgimg.style.backgroundImage= `url(images/img-${count}.jpg) `;
 });
 
 btnright.addEventListener('click',function(){
-    if(count === 0){
+    if(count === 1){
         count= 7 ;
     }
     count-- ;
