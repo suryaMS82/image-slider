@@ -10,7 +10,7 @@ if(count === 7){
 }
 count++ ;
 
-bgimg.style.backgroundImage= `url(/images/img-${count}.jpg) `;
+bgimg.style.backgroundImage= `url(images/img-${count}.jpg) `;
     
 });
 
@@ -20,6 +20,6 @@ btnright.addEventListener('click',function(){
     }
     count-- ;
 
-    bgimg.style.backgroundImage= `url(/images/img-${count}.jpg) `;
+    bgimg.style.backgroundImage= `url(images/img-${count}.jpg) `;
         
     });
